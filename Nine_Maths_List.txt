@@ -1,0 +1,37 @@
+Nine Maths of Unification
+S2-11DM2ET-X
+
+The live Grokipedia page listed seven. This file records all nine, in the Zenodo order.
+
+1. Temporal Torsion Cohomology (TTC)
+Cohomology of the resonant 3-form with period G4. Discrete contact: sample-point cocycle of Bridge Series C under W_7. Continuum 539.9 s modulation is Category B.
+
+2. Negative-Signature Functional Analysis (N-SFA)
+Parallel theory with negative-signature sesquilinear form and operator J_-. Discrete contact: indefinite lattice M of signature (1,1), det = -35. Continuum Krein-space physics is Category B.
+
+3. Brane-Mediated Measure Theory (B-MMT)
+Sigma-finite complex measure supported on the D2-brane interface. Discrete contact: hyperbolic lattice-point counting on disc 35. Continuum brane measures are Category B.
+
+4. Hyperbolic Measure Theory (HMT)
+Density snap that replaces singularities by a regular bound. Discrete contact: class number 2 of Q(sqrt(35)), unit 6 + sqrt(35), discrete scattering. Continuum snap-back geometry is Category B.
+
+5. Friction-Coupled PDE (F-C PDE)
+Attractor equation whose integers 539 and 3^{-539} are Category A. Identification of 539 with physical time G4 = 539.90 s is Category B.
+
+6. Resonant Number Theory (RNT)
+Packaging integers, series g_s, residue support {0,1,2,4} mod 7, twin-support Path 1. Category A discrete. Classical Twin Prime Conjecture and Riemann Hypothesis unclaimed.
+
+7. Resonant Temporal Torsion Cohomology (RTTC)
+Shadow Xi, Eichler period candidate, residual_slash at x = 1/7, 3/7, 5/7, 1. Category A at those sample points. Continuum RTTC spectral sequence is Category B.
+
+8. Resonant Oscillation Theory (ROT)
+Added from Zenodo 9 Maths of Unification. All named observables are treated as projections of one waveform
+Phi(t) = Phi_0 + 0.90 cos(2 pi t / 539.9) + 0.18 sin(2 pi t / 539.9).
+Discrete contact: even/odd partial-theta forms and the Dual split Dual^{(-1)} + Dual^{(0)} + Dual^{(+1)}. Continuum sub-harmonics and waveform coefficients are Category B.
+
+9. negPBH M-CP Phase Theory
+Added from Zenodo 9 Maths of Unification. Negative primordial black holes undergo a chiral phase shift after evaporation at t_hot about 10^{-3} s and are read as starting a DM to DE to E flow with E = m (10 c)^2.
+Discrete contact: unit-orbit scattering of 6 + sqrt(35). Physical CP phase, beta_PBH regulation, and horizon reading are Category B.
+
+Source for items 8 and 9
+https://zenodo.org/records/19343101
