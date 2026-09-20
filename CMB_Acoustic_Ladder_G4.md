@@ -13,12 +13,13 @@ ell_1 = G4 * 11/27 = 219.959     Planck 220.6 ± 0.6    -0.29%
 ell_2 = G4         = 539.9       Planck 538.1 ± 1.3    +0.33%
 ell_3 = G4 * 3/2   = 809.85      Planck 809.8 ± 1.0    +0.006%
 ell_4 = G4 * 17/8  = 1147.287    Planck 1147.8 ± 2.3    -0.04%
+ell_5 = G4 * 8/3   = 1439.73     Planck 1446.8 ± 1.6    -0.49%
 ell_T2= G4 * 5/4   = 674.875     Planck 675.5 ± 1.2    -0.09%
+ell_T5= 3 G4       = 1619.70     Planck 1623.8 ± 2.1    -0.25%
+ell_T6= G4 * 32/9  = 1919.64     Planck 1919 ± 4        +0.03%
 
-Peak 1 = first compression = 11D on the +U 3-cube.
-Peak 2 = first completed flux period.
-Peak 3 = h_j = 3/2 overtone.
-Peak 4 = 2 + 1/8.
+Peak 5 sits at the diffusion scale (same 8/3 as ell_D).
+ell_6, ell_7 on the TE 7-grid are candidates, not closed.
 
 
 ## EE positions
@@ -30,8 +31,9 @@ ell_EE,n = G4 * (6n-4)/11
  n=4: 20/11 = 981.636                   Planck 993.1 ± 1.8   -1.2%
  n=5: 26/11 = 1276.04                   Planck 1296.4 ± 4.3  -1.6%
 
-EE2/EE1 = G4/27 = 19.996                Planck 21.45/1.11 = 19.32   +3.5%
-EE3/EE2 = 11/6  = 1.833                 Planck 38.1/21.45 = 1.776   +3.2%
+EE2/EE1 = G4/27 = 19.996                Planck 19.32           +3.5%
+EE3/EE2 = 11/6  = 1.833                 Planck 1.776           +3.2%
+Absolute EE muK not claimed.
 
 
 ## Silk
@@ -43,29 +45,24 @@ ell_S^{-2} = ell_D^{-2} + ell_t^{-2}  =>  ell_S = 916.3
 
 ## Heights
 
-P1/P2 = 1/kappa_dark = 539/243 = 2.2181     Planck 5733/2586 = 2.2169    -0.05%
+P1/P2 = 1/kappa_dark = 539/243 = 2.2181     Planck 2.2169    -0.05%
+P3/P1 = (1-kappa_dark) exp(-(ell_3^2-ell_1^2)/(3 G4)^2) = 0.4358
+                                            Planck 0.4392    -0.8%
+P4/P2 = kappa_dark (1+f_snap) = 0.47328     Planck 0.47448   -0.25%
+P5/P3 = (1-kappa_dark) exp(-(ell_5^2-ell_3^2)/(3 G4)^2) = 0.3200
+                                            Planck 0.3173    +0.84%
 
-P3/P1 = (1 - kappa_dark) * exp( -(ell_3^2 - ell_1^2) / (3 G4)^2 )
-      = (296/539) * exp( -(809.85^2 - 219.96^2) / 1619.7^2 )
-      = 0.54917 * 0.7935 = 0.4358           Planck 2518/5733 = 0.4392    -0.8%
 
-3 G4 is the three-generation odd-peak damping clock.
+## BAO + leading-order warp
 
-
-## BAO length
-
-D_M(z_*) = 3 (N_flux - 3^5) Mpc = 3*4637 = 13911 Mpc
+D_M(z_*) = 3 (N_flux - 3^5) Mpc = 13911 Mpc
 ell_A = G4 (mu - 1) = 296.945
-theta_* = pi / ell_A = 0.010577
-r_d = theta_* D_M = pi * 13911 / 296.945 = 147.15 Mpc
+r_d = pi * 13911 / 296.945 = 147.15 Mpc
 
-Planck/DESI fiducial r_d ~ 147.05 to 147.09 Mpc. Residual ~ +0.07%.
-c*G4 is not this ruler (Clock III).
+Omega_m = (2/3) kappa_dark = 162/539 = 0.30056
+Omega_DE = 377/539 = 0.69944
+w = -1 at leading order
+H0 = c * chi(z_*) / D_M(z_*) = 68.45 km s^{-1} Mpc^{-1}
+h r_d = 100.74 Mpc                         DESI 101.54 ± 0.73  -0.79%
 
-
-## Spectrum
-
-C_ell = A_H-QP * sum_n H_n P(ell - ell_n[G4,11]) * S_silk(ell)
-      + delta C^{-U} sin(2 pi ell / G4 + phi_11)
-
-H_odd/H_even at first pair = 539/243.
+LRG1 D_H at z=0.51 remains the open warp residual (~3%).
