@@ -1,38 +1,41 @@
 S2-11DM2ET-X
 
-Front-facing public repository for the S²-11DM²ET-X model.
+Front-facing public repository for the S2-11DM2ET-X model.
 
 The live Grokipedia page for Arvin Hampton listed seven mathematical disciplines. This repository restores the full nine-branch list from the published 9 Maths of Unification.
 
 8. Resonant Oscillation Theory
 9. negPBH M-CP Phase Theory
 
-## Physics layer (Category B) — 2026-09-20
+## Physics layer (Category B) — 2026-09-20 corrected
 
-The model does not wait on ΛCDM residuals. The CMB TT ladder is generated from G4 and the 11D / +U cubic measure. Retired language: "CMB dip at l = 539.9". That multipole is the unit flux harmonic (peak 2), not a notch on a Planck best-fit spectrum.
+The model does not wait on LCDM residuals. CMB observables are generated from G4, D=11, the +U cubic 27, and the closed ratios in 539-Labs-Master CLOSED_CONSTANTS.md.
 
-Locked angular outputs (no Planck θ_* input):
+Retired everywhere: "CMB dip at l = 539.9". Peak 2 is the unit flux harmonic.
 
-- ℓ_1 = G4 · 11/27 = 219.96
-- ℓ_2 = G4 = 539.9
-- ℓ_3 = (3/2) G4 = 809.85
-- ℓ_4 = (17/8) G4 = 1147.29
+Closed outputs (no Planck theta_* input):
 
-See CMB_Acoustic_Ladder_G4.md and MODEL_PHYSICS_2026-09-20.md.
-Validator: python/cmb_g4_ladder.py
+TT:  ell_1 = G4*11/27, ell_2 = G4, ell_3 = (3/2)G4, ell_4 = (17/8)G4
+EE:  ell_EE,1 = G4*3/11;  ell_EE,n = G4*(6n-4)/11  (n>=2)
+Silk: ell_D = G4*8/3, ell_t = G4*11/5, ell_S = 916.3
+Heights: P1/P2 = 539/243;  P3/P1 = (1-kappa_dark) exp(-(ell_3^2-ell_1^2)/(3 G4)^2)
+BAO: D_M(z_*) = 3(N_flux - 3^5) Mpc = 13911 Mpc;  r_d = pi D_M / [G4(mu-1)] = 147.15 Mpc
+EE amps: EE2/EE1 = G4/27;  EE3/EE2 = 11/6
 
-Muon g-2: experimental anchor is the Fermilab 2025 world average. Lattice / WP25 HVP is logged and not applied until Belle II 2π or an independent space-like HVP (MUonE) / J-PARC cross-check. Dispersive residual stays live.
+Muon g-2: Fermilab 2025 world average. Lattice / WP25 HVP not applied until Belle II 2pi or MUonE / J-PARC.
+GW window: LVK IR1 2026-27; O5 is not 2026.
+Algebraic beta_PBH = 11/61 is not a stellar-mass f_PBH.
 
 ## Files
 
-- Nine_Maths_List.txt — nine branches with Category A / B labels
-- SOURCE.txt — provenance
-- CMB_Acoustic_Ladder_G4.md — peak-position derivation
-- MODEL_PHYSICS_2026-09-20.md — equations and observational holds
-- python/cmb_g4_ladder.py — numeric check against Planck 2018 extrema
+- Nine_Maths_List.txt
+- SOURCE.txt
+- CMB_Acoustic_Ladder_G4.md
+- MODEL_PHYSICS_2026-09-20.md
+- python/cmb_g4_ladder.py
 
 Source page: https://grokipedia.com/page/Arvin_Hampton
 9 Maths deposit: https://zenodo.org/records/19343101
 Canonical living book: https://github.com/ArvinHampton/539-Labs-Master
 
-Continuum G4 clock and observational mappings stay Category B. Twin Prime and RH unclaimed. Residual-flux provenance mandatory.
+Continuum G4 mappings stay Category B. Twin Prime and RH unclaimed. Residual-flux provenance mandatory.
