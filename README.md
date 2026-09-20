@@ -2,22 +2,15 @@ S2-11DM2ET-X
 
 Front-facing public repository for the S2-11DM2ET-X model.
 
-Paper (20 September 2026):
-papers/S2-11DM2ET-X_CMB_BAO_Closures_2026-09-20.md
+Paper: papers/S2-11DM2ET-X_CMB_BAO_Closures_2026-09-20.md
+Further closures (troughs 1,3,4,7; EE uK; D2 wrap; C=0): Open_Closures_Troughs_EE_Wrap_2026-09-20.md
 
-Peak 2 is the unit flux harmonic G4 = 539.9. CMB and BAO are generated from G4, D=11, cubic 27, N_flux=4880, kappa_dark=243/539, f_snap=243/4880.
+Peak 2 is G4 = 539.9. CMB and BAO from G4, D=11, 27, N_flux=4880, kappa_dark=243/539, f_snap=243/4880, |P|=61.
 
-Closed: TT ell_1..7 and troughs 2,5,6; EE grid; Silk pair; heights P1/P2 through P7/P5; r_d=147.15 Mpc; Omega_m=162/539; W(z) from D2 radion.
+Closed: TT peaks 1-7 and troughs 1-7 except none left on TT extrema; EE locations and absolute D_ell; Silk pair; heights; r_d=147.15 Mpc; Omega_m=162/539; W(z); D2 wrap; C=0 after snap.
 
-Muon g-2 held at Fermilab 2025. Lattice HVP not applied until Belle II 2pi. GW window: LVK IR1 2026-27.
+Open: T_D2 in GeV^3; 5D Einstein for W(z); Boltzmann C_ell; LRG1 D_H; Belle II 2pi.
 
-Files:
-- papers/S2-11DM2ET-X_CMB_BAO_Closures_2026-09-20.md
-- CMB_Acoustic_Ladder_G4.md
-- W_z_D2_Brane_Separation.md
-- MODEL_PHYSICS_2026-09-20.md
-- python/cmb_g4_ladder.py
-- Nine_Maths_List.txt, SOURCE.txt
+Muon held at Fermilab 2025. GW window: LVK IR1 2026-27.
 
 Canonical book: https://github.com/ArvinHampton/539-Labs-Master
-9 Maths: https://zenodo.org/records/19343101
