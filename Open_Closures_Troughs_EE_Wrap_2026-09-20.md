@@ -1,6 +1,7 @@
 # Further closures: troughs, EE amplitudes, D2 wrap
 
 20 September 2026. Locked constants only. No new primes.
+Category B. Residual discrete core untouched.
 
 ## Troughs 1, 3, 4, 7
 
@@ -41,6 +42,13 @@ C = 0 for z < z_*. Snap leftover is already f_snap in the radion. A C/a^4 of ord
 
 Not closed in GeV^3 (needs M5 or alpha'). Matching remains e^{-k b0} = kappa_dark. rho_DE(0) ~ 6.05e-27 kg/m^3 at H0=67.86.
 
+## Written this evening, no longer listed as unwritten
+
+5D Einstein-Hampton equation and W(z) from the snap-pinned radion.
+See Einstein_Hampton_Equation.md, Einstein_Hampton_Action.md, D2_Stress_Tensor.md,
+and papers/Einstein_Hampton_Equation_2026-09-20.md.
+Product n_2 T_2 b_0 is fixed. T_2 and n_2 separately are not.
+
 ## Still open
 
-T_D2 in GeV^3; 5D Einstein equation for W(z); Boltzmann C_ell; LRG1 D_H; Belle II 2pi.
+T_D2 in GeV^3; k and b_0 separately; Boltzmann C_ell; LRG1 D_H; Belle II 2pi; LVK IR1 at 539.9 s.
